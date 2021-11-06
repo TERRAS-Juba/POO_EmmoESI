@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controleurs.catalogue_controleurs">
+   <top>
+      <VBox prefHeight="57.0" prefWidth="651.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Consultation de la liste de biens">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="150.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Line endX="549.2929077148438" endY="-1.2426408529281616" startX="-100.0" />
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="76.0" prefWidth="652.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bouttonconsulter" layoutX="171.0" layoutY="18.0" mnemonicParsing="false" onAction="#consulter" prefHeight="44.0" prefWidth="122.0" text="Consulter" />
+            <Button fx:id="bouttonquitter" layoutX="385.0" layoutY="18.0" mnemonicParsing="false" onAction="#quitter" prefHeight="44.0" prefWidth="122.0" text="Quitter" />
+            <Line endX="529.0" layoutX="122.0" layoutY="10.0" startX="-122.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <ListView fx:id="ensemble" prefHeight="369.0" prefWidth="650.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

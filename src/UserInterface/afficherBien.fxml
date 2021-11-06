@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="877.0" style="-fx-background-color: #262c49;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controleurs.bien_controleurs">
+   <children>
+      <AnchorPane layoutX="117.0" layoutY="121.0" prefHeight="270.0" prefWidth="615.0" style="-fx-background-color: #FAFBED;">
+         <children>
+            <AnchorPane prefHeight="57.0" prefWidth="644.0" style="-fx-background-color: #2f9674;">
+               <children>
+                  <Text fill="#f2eeee" layoutX="137.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informations sur le bien ">
+                     <font>
+                        <Font name="Calibri" size="31.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <ListView fx:id="zone" layoutY="54.0" prefHeight="216.0" prefWidth="644.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="retourner" layoutX="506.0" layoutY="416.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="255.0" style="-fx-background-color: #2f9674;" text="Retour" textFill="#fffdfd">
+         <font>
+            <Font name="Calibri" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="consulter" layoutX="117.0" layoutY="416.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="255.0" style="-fx-background-color: #2f9674;" text="Consulter" textFill="#fffdfd">
+         <font>
+            <Font name="Calibri" size="22.0" />
+         </font>
+      </Button>
+      <Text fill="#e8e2e2" layoutX="273.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrez le numero du bien a consulter ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="indice" layoutX="298.0" layoutY="81.0" prefHeight="30.0" prefWidth="282.0" />
+   </children>
+</AnchorPane>

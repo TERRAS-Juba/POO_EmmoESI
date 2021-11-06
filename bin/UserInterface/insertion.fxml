@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="211.0" prefWidth="590.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Informations Wilaya">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="150.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Wilaya">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="90.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Num Wilaya">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="55.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="prix mettre carre">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="22.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Adresse">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="80.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="38.0" prefWidth="590.0" />
+            <HBox prefHeight="38.0" prefWidth="590.0" />
+            <HBox prefHeight="38.0" prefWidth="590.0" />
+            <HBox prefHeight="38.0" prefWidth="590.0">
+               <children>
+                  <HBox prefHeight="116.0" prefWidth="590.0">
+                     <children>
+                        <VBox prefHeight="227.0" prefWidth="590.0">
+                           <children>
+                              <Label text="Informations Wilaya">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="150.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <HBox prefHeight="38.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Nom">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField>
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                       <HBox.margin>
+                                          <Insets left="90.0" top="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="38.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Prenom">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField>
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                       <HBox.margin>
+                                          <Insets left="70.0" top="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="38.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Email">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField>
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                       <HBox.margin>
+                                          <Insets left="85.0" top="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="38.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Telephone">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField>
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                       <HBox.margin>
+                                          <Insets left="53.0" top="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="38.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Adresse">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField>
+                                       <padding>
+                                          <Insets top="10.0" />
+                                       </padding>
+                                       <HBox.margin>
+                                          <Insets left="70.0" top="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Date d'ajout du bien">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="150.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Jour">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="110.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Mois">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="105.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Année">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="93.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+               <children>
+                  <Label text="Informations generales sur le bien">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="150.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Superficie">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="90.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Prix">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="130.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Descriptif">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="92.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="prix negociable">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="55.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="590.0">
+                     <children>
+                        <Label text="Nom">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="RadioButton">
+                           <HBox.margin>
+                              <Insets left="151300.0" top="10.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="RadioButton" />
+                        <RadioButton mnemonicParsing="false" text="RadioButton" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>

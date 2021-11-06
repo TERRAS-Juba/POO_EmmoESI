@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="933.0" style="-fx-background-color: #262c49;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.insertion_terrain">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="55.0" prefHeight="681.0" prefWidth="891.0" style="-fx-background-color: #FAFBED;">
+         <children>
+            <AnchorPane prefHeight="57.0" prefWidth="425.0" style="-fx-background-color: #2f9674;">
+               <children>
+                  <Text fill="#f2eeee" layoutX="7.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="insertion  d un terrain ">
+                     <font>
+                        <Font name="Calibri" size="31.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text layoutX="14.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="adresse">
+               <font>
+                  <Font name="Calibri" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Superficie" wrappingWidth="149.0000050328672">
+               <font>
+                  <Font name="Calibri" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="15.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prix" wrappingWidth="160.208984375">
+               <font>
+                  <Font name="Calibri" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="12.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descriptif">
+               <font>
+                  <Font name="Calibri" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Negociable">
+               <font>
+                  <Font name="Calibri" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="15.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="21.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="date">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="proprietaire">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="11.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wilaya">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Button fx:id="inserer" layoutX="239.0" layoutY="610.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="188.0" style="-fx-background-color: #2f9674;" text="inserer" textFill="#fffdfd">
+               <font>
+                  <Font name="Calibri" size="22.0" />
+               </font>
+            </Button>
+            <Text layoutX="8.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wilaya echange">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="3.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre de facades">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="statut juridique">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adr" layoutX="175.0" layoutY="96.0" promptText="adresse" />
+            <TextField fx:id="superficie" layoutX="175.0" layoutY="132.0" promptText="superficie" />
+            <TextField fx:id="prix" layoutX="175.0" layoutY="172.0" promptText="prix" />
+            <TextField fx:id="descriptif" layoutX="175.0" layoutY="207.0" promptText="descriptif" />
+            <TextField fx:id="negociable" layoutX="175.0" layoutY="246.0" promptText="negociable" />
+            <TextField fx:id="transaction" layoutX="175.0" layoutY="285.0" promptText="transaction" />
+            <TextField fx:id="jour" layoutX="175.0" layoutY="328.0" promptText="jour" />
+            <TextField fx:id="mois" layoutX="363.0" layoutY="328.0" promptText="mois" />
+            <TextField fx:id="annee" layoutX="520.0" layoutY="328.0" promptText="annee" />
+            <TextField fx:id="nom" layoutX="175.0" layoutY="368.0" promptText="Nom" />
+            <TextField fx:id="prenom" layoutX="363.0" layoutY="368.0" promptText="Prenom" />
+            <TextField fx:id="email" layoutX="520.0" layoutY="368.0" promptText="Email" />
+            <TextField fx:id="adresse" layoutX="175.0" layoutY="409.0" promptText="Adresse" />
+            <TextField fx:id="tel" layoutX="363.0" layoutY="409.0" promptText="Tel" />
+            <TextField fx:id="wilaya" layoutX="175.0" layoutY="451.0" promptText="Nom wilaya" />
+            <TextField fx:id="num" layoutX="363.0" layoutY="451.0" promptText="Numero wilaya" />
+            <TextField fx:id="metre" layoutX="520.0" layoutY="451.0" promptText="prix metre carre" />
+            <TextField fx:id="echange" layoutX="184.0" layoutY="482.0" promptText="w/echange" />
+            <TextField fx:id="num1" layoutX="363.0" layoutY="482.0" promptText="Numero wilaya" />
+            <TextField fx:id="metre1" layoutX="520.0" layoutY="482.0" promptText="prix metre carre" />
+            <TextField fx:id="facade" layoutX="250.0" layoutY="531.0" promptText="nb facade" />
+            <TextField fx:id="statut" layoutX="250.0" layoutY="567.0" promptText="statut juridique" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
